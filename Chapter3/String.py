@@ -7,40 +7,45 @@
 # print(b) # ris 
 
 
-name = "hello world"
-print(len(name))
-print(name.endswith("hna"))
-print(name.startswith("Kri"))
-print(name.capitalize()) 
-print(name.upper())
-print(name.lower())
-print(name.replace("hello" , "hi"))
-print(name.find("world"))
+# name = "hello world"
+# print(len(name))
+# print(name.endswith("hna"))
+# print(name.startswith("Kri"))
+# print(name.capitalize()) 
+# print(name.upper())
+# print(name.lower())
+# print(name.replace("hello" , "hi"))
+# print(name.find("world"))
 
-text = "hello bhai kaise ho"
-print(text.split())
+# text = "hello bhai kaise ho"
+# print(text.split())
 
-first = "Hello"
-second = "Bhai"
+# first = "Hello"
+# second = "Bhai"
 
-result = first + " " + second
-print(result)
+# result = first + " " + second
+# print(result)
 
-name = input("Enter your name: ")
+# name = input("Enter your name: ")
 
-print("Welcome " + name) # + is only used for concat string 
-print("Welcome " , name) # always used , 
+# print("Welcome " + name) # + is only used for concat string 
+# print("Welcome " , name) # always used , 
 
 
-word = "  hello WORLD"
-print(word.strip().lower().replace("world","Krishna").title())
+# word = "  hello WORLD"
+# print(word.strip().lower().replace("world","Krishna").title())
 
-a = "Krishna is a \'good\' boy "
-print(a)
+# a = "Krishna is a \'good\' boy "
+# print(a)
 
 
 
 names = "KrisHna garg"
+
+print(names[::-1]) # use for reverse 
+print(names[:4])
+print(names[:8:2])
+
 print(names.lower())
 print(names.upper())
 print(names.capitalize())

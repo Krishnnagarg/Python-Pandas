@@ -15,15 +15,15 @@
 # example 2 :- WAP to find out wheather a student pass or failed .
 # if it require a total of 40% and at least 33% in each subject to pass
 
-sub1 = int(input("Enter Your Marks :- "))
-sub2 = int(input("Enter Your Marks :- "))
-sub3 = int(input("Enter Your Marks :- "))
+# sub1 = int(input("Enter Your Marks :- "))
+# sub2 = int(input("Enter Your Marks :- "))
+# sub3 = int(input("Enter Your Marks :- "))
 
-totalMarks = sub1 + sub2 + sub3
-percentage = totalMarks/3
+# totalMarks = sub1 + sub2 + sub3
+# percentage = totalMarks/3
 
-result = "Pass" if percentage >= 40 and sub1 >= 33 and sub2 >= 33 and sub3 >= 33 else "Fail"
-print(f"Student will be {result} with {percentage}%")
+# result = "Pass" if percentage >= 40 and sub1 >= 33 and sub2 >= 33 and sub3 >= 33 else "Fail"
+# print(f"Student will be {result} with {percentage}%")
 
 # example 3
 
@@ -37,10 +37,20 @@ print(f"Student will be {result} with {percentage}%")
     
 # example 4
 
-l = ["Krishna","Rakhi","Yash"]
-name = input("Enter YOur Name :- ")
+# l = ["Krishna","Rakhi","Yash"]
+# name = input("Enter YOur Name :- ")
 
-if(name in l):
-    print("Your Name in list")
+# if(name in l):
+#     print("Your Name in list")
+# else :
+#     print("Your Name is not lies in List")
+    
+    
+    
+names = ["Krishna","Rakhi","Yash","Deepak","Vashu"]
+name = input("Enter Your Name :- ")
+
+if (name in names):
+    print(f"{name} your name in List")
 else :
-    print("Your Name is not lies in List")
+    print(f"{name} your name not in list")

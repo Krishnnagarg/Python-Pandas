@@ -10,18 +10,12 @@ data = {
 df = pd.DataFrame(data)
 # print(df)
 
-# print(df.loc[1,"Name"])
-# print(df.loc[1])
-# print(df.loc[0:2])
+print(df.loc[1,"Name"])
+print(df.loc[1]) # only one row pass in which 
+print(df.loc[0:2]) # only rows pass in which 0 to 2 
 
-# print(df.loc[:, ["Name", "Salary"]])
+print(df.loc[:, ["Name", "Salary"]]) # all rows from start to end and only Name and Salary Column Shows
 
 
-# print(df.head())
 
-print(df.loc[:,"Name"])
-print(df["Name"])
-# print(df.loc[:,["Name","Salary"]])
-# print(df.iloc[0:3])
-# print(df.info())
 

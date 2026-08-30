@@ -39,3 +39,7 @@ for num in numbers:
     print("total :" , total)
     
 print("total :" , total)
+
+# fruits = ["apple" , "banana" , "mango" , "grapes"]
+# fruits.append("Orange")
+# print(fruits)

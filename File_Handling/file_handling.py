@@ -8,5 +8,12 @@
 # print(file.read())
 # file.close()
 
-with open("krishna.txt", "r") as file:
-    print(file.read())
+# with open("krishna.txt", "r") as file:
+#     print(file.read())
+
+
+# mode 
+# r → read
+# w → write/overwrite
+# a → append
+# x → create

@@ -29,7 +29,7 @@ print(df.tail(3))
 
 # 5. display dataset info 
 
-print(df.info())
+df.info()
 
 # 6. Show employees with Age > 30
 
@@ -117,6 +117,7 @@ print(df.loc[df["Performance Score"] > 85])
 print(df[df["Salary"] > df["Salary"].mean()])
 
 print(df.loc[df["Salary"] > df["Salary"].mean()])
+
 # 27.  New DataFrame with Name, Salary, and Bonus
 
 new_df = df[["Name" , "Salary" , "Bonus" ]]

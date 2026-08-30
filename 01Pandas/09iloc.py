@@ -9,8 +9,8 @@ data = {
 
 df = pd.DataFrame(data)
 
-print(df.iloc[1,0])
+print(df.iloc[1,0]) # means 1 idx rows and 0 index column
 
-print(df.iloc[0:2]) # multiple rows
+print(df.iloc[0:2]) # 0 to 2 rows pass only 
 
 print(df.iloc[:,0:2]) # all rows and 0 to 2 column pass in which 

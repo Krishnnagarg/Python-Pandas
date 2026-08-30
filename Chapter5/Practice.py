@@ -10,11 +10,12 @@
 # word = input("Enter the word you want meaning of :- ")
 # print(words[word])
 
+
 # example 2
 
 # s = set() 
-# for i in range(8):
-#     i = int(input(f"Enter your number {i+1} :- "))
+# for i in range(1,9):
+#     i = int(input(f"Enter your number {i} :- "))
 #     s.add(i)
     
 # print(s)
@@ -45,13 +46,11 @@
 
 # example 6
 
-s = {}
+# s = {}
 
-for i in range(4):
-    name = input("Enter Your Name :- ")
-    lang = input("Enter Your language :- ")
-    s.update({name:lang})
+# for i in range(4):
+#     name = input("Enter Your Name :- ")
+#     lang = input("Enter Your language :- ")
+#     s.update({name:lang})
     
-print(s)
-
-    
+# print(s)

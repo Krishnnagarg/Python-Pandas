@@ -12,8 +12,8 @@ df = pd.DataFrame(data)
 
 # single condition apply  ---------------> 
 
-# filter_age = df[df["Age"] >= 30] 
-# print(filter_age)
+filter_age = df[df["Age"] >= 30] 
+print(filter_age)
 
 # multiple condition apply  ----------->  And(&) OR(|) use 
 
@@ -26,11 +26,11 @@ df = pd.DataFrame(data)
 filter_data = df[(df["Age"] >= 30) & (df["Salary"] >= 15000)]
 
 # practice questions :------>
-filter_age = df[df["Age"] > 25]
-print(filter_age)
+# filter_age = df[df["Age"] > 25]
+# print(filter_age)
 
-filter_salary = df[df["Salary"] < 20000]
-print(filter_salary)
+# filter_salary = df[df["Salary"] < 20000]
+# print(filter_salary)
 
-filter_data = df[(df["Age"] >20) & (df["Salary"] > 15000)]
-print(filter_data)
+# filter_data = df[(df["Age"] >20) & (df["Salary"] > 15000)]
+# print(filter_data)

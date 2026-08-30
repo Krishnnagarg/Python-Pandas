@@ -9,6 +9,15 @@
     
 # print("Fruits List : " , fruits)
     
+    
+# fruits = []
+
+# for i in range (7):
+#     fruit = input(f"Enter your {i+1} Fruit Name :-")
+#     fruits.append(fruit)
+    
+# print(f"Fruits Lists :- {fruits}")
+
 
 # f1 = input("Enter Your Fruit Name: ")
 # fruits.append(f1)
@@ -32,12 +41,13 @@
 
 # studs_marks = []
 # for i in range(6):
-#     marks = int(input("Enter YOur Marks : "))
+#     marks = int(input(f"Enter {i+1} Student Marks :- "))
 #     studs_marks.append(marks)
     
 # studs_marks.sort()
 
 # print("Sorted Marks : " ,studs_marks)
+
 
 
 #3 check that tuple type cannot be changed in python 
@@ -48,16 +58,16 @@
 
 
 # 4
-numbers = [10,30,20,40]
+# numbers = [10,30,20,40]
 # sum = 0
 # for num in numbers:
 #     sum += num
     
 # print("Sum of list is : " , sum)
     
-print("Sum of list is :" , sum(numbers)) # sum is also built-in function in python
+# print("Sum of list is :" , sum(numbers)) # sum is also built-in function in python
 
 
 # 5
-a = (7,0,8,0,0,9)
-print("Number of 0 in which :-", a.count(0))
+# a = (7,0,8,0,0,9)
+# print("Number of 0 in which :-", a.count(0))
