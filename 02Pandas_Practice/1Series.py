@@ -13,7 +13,7 @@ print(marks.shape)
 print(marks.size)
 print(marks.ndim)
 print(marks.dtype)
-print(marks.index)
+print(marks.index) 
 print(marks.values)
 
 # important Methods 

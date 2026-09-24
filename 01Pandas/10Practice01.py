@@ -1,4 +1,3 @@
-
 import pandas as pd
 
 data = {
@@ -77,6 +76,7 @@ print(df["Salary"].min())  # find min salary
 
 
 # # # 17. Find maximum performance score
+print(f"Anser--------------------------->")
 print(df["Performance Score"].max())
 print(df["Performance Score"].min())
 
